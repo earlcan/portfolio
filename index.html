@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ercan Şahin - Product Owner & Technical Business Analyst</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h2>Ercan Şahin</h2>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Spin Wheel Sidebar -->
+    <div class="spin-wheel-container">
+        <div class="wheel-wrapper">
+            <canvas id="skillWheel" width="200" height="200"></canvas>
+            <div class="wheel-pointer"></div>
+            <button id="spinButton" class="spin-button">SPIN</button>
+        </div>
+        <div class="selected-skills">
+            <h3>My Skills</h3>
+            <div id="skillDisplay" class="skill-display">
+                <div class="skill-item">Click SPIN to see skills!</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <!-- Hero Section -->
+        <section id="home" class="hero">
+            <div class="hero-container">
+                <div class="hero-content">
+                    <h1 class="hero-title">
+                        <span class="gradient-text">Product Owner</span> & 
+                        <span class="gradient-text">Technical Business Analyst</span>
+                    </h1>
+                    <p class="hero-subtitle">
+                        Transforming business requirements into technical solutions with 
+                        <span class="highlight">Agile methodologies</span> and 
+                        <span class="highlight">data-driven insights</span>
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#about" class="btn btn-primary">Discover More</a>
+                        <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+                    </div>
+                </div>
+                <div class="hero-visual">
+                    <div class="floating-card">
+                        <div class="card-icon">📊</div>
+                        <h3>Data Analysis</h3>
+                    </div>
+                    <div class="floating-card">
+                        <div class="card-icon">🎯</div>
+                        <h3>Agile-Scrum</h3>
+                    </div>
+                    <div class="floating-card">
+                        <div class="card-icon">🔗</div>
+                        <h3>Integration</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about">
+            <div class="container">
+                <h2 class="section-title">About Me</h2>
+                <div class="about-content">
+                    <div class="about-text">
+                        <p class="about-description">
+                            I'm a passionate Product Owner and Technical Business Analyst with extensive experience 
+                            in bridging the gap between business stakeholders and development teams. My expertise 
+                            spans across requirement analysis, agile methodologies, and technical integration.
+                        </p>
+                        <div class="about-highlights">
+                            <div class="highlight-item">
+                                <div class="highlight-icon">🎯</div>
+                                <div class="highlight-text">
+                                    <h4>Strategic Planning</h4>
+                                    <p>Expert in backlog prioritization and sprint planning</p>
+                                </div>
+                            </div>
+                            <div class="highlight-item">
+                                <div class="highlight-icon">📊</div>
+                                <div class="highlight-text">
+                                    <h4>Data-Driven Decisions</h4>
+                                    <p>Leveraging analytics for informed product decisions</p>
+                                </div>
+                            </div>
+                            <div class="highlight-item">
+                                <div class="highlight-icon">🤝</div>
+                                <div class="highlight-text">
+                                    <h4>Stakeholder Management</h4>
+                                    <p>Building strong relationships across all levels</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section id="experience" class="experience">
+            <div class="container">
+                <h2 class="section-title">Professional Experience</h2>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <h3>Senior Product Owner</h3>
+                            <h4>Tech Company</h4>
+                            <span class="timeline-date">2022 - Present</span>
+                            <p>Leading product strategy and roadmap development for enterprise-level applications. 
+                               Managing cross-functional teams and stakeholder relationships.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <h3>Technical Business Analyst</h3>
+                            <h4>Digital Solutions Inc.</h4>
+                            <span class="timeline-date">2020 - 2022</span>
+                            <p>Analyzed business requirements and translated them into technical specifications. 
+                               Collaborated with development teams on system integrations and API implementations.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <h3>Business Analyst</h3>
+                            <h4>Consulting Firm</h4>
+                            <span class="timeline-date">2018 - 2020</span>
+                            <p>Conducted requirement gathering sessions and created comprehensive BRDs. 
+                               Implemented agile methodologies and improved team productivity by 30%.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects">
+            <div class="container">
+                <h2 class="section-title">Featured Projects</h2>
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <div class="project-icon">🛒</div>
+                        <h3>E-Commerce Platform</h3>
+                        <p>Led the development of a comprehensive e-commerce solution with 3rd party integrations, 
+                           real-time analytics, and mobile responsiveness.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Agile-Scrum</span>
+                            <span class="tech-tag">API Integration</span>
+                            <span class="tech-tag">Data Analysis</span>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <div class="project-icon">📱</div>
+                        <h3>Mobile Banking App</h3>
+                        <p>Managed the product roadmap for a secure mobile banking application with advanced 
+                           authentication and real-time transaction processing.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Stakeholder Management</span>
+                            <span class="tech-tag">UML</span>
+                            <span class="tech-tag">Change Management</span>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <div class="project-icon">📊</div>
+                        <h3>Analytics Dashboard</h3>
+                        <p>Designed and implemented a comprehensive analytics dashboard for business intelligence 
+                           with real-time data visualization and reporting capabilities.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">SQL</span>
+                            <span class="tech-tag">Data Analysis</span>
+                            <span class="tech-tag">User Stories</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact">
+            <div class="container">
+                <h2 class="section-title">Get In Touch</h2>
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <h3>Let's Work Together</h3>
+                        <p>I'm always interested in new opportunities and exciting projects. 
+                           Feel free to reach out if you'd like to collaborate!</p>
+                        <div class="contact-details">
+                            <div class="contact-item">
+                                <div class="contact-icon">📧</div>
+                                <span>ercan.sahin@email.com</span>
+                            </div>
+                            <div class="contact-item">
+                                <div class="contact-icon">💼</div>
+                                <span>LinkedIn Profile</span>
+                            </div>
+                            <div class="contact-item">
+                                <div class="contact-icon">📄</div>
+                                <span>Download Resume</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contact-form">
+                        <form>
+                            <div class="form-group">
+                                <input type="text" placeholder="Your Name" required>
+                            </div>
+                            <div class="form-group">
+                                <input type="email" placeholder="Your Email" required>
+                            </div>
+                            <div class="form-group">
+                                <textarea placeholder="Your Message" rows="5" required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Ercan Şahin. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
