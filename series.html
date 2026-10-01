@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Village Stack · A series by Ercan Şahin</title>
+    <meta name="description" content="Village problems, software solutions. A 13-part series that reads a village and its problems like a software system, every Tuesday from 13 October 2026.">
+    <link rel="canonical" href="https://sahinercan.com/series.html">
+    <meta name="theme-color" content="#FFFFFF">
+
+    <!-- Monogram icon -->
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+
+    <!-- Share preview (LinkedIn, WhatsApp, X, Slack) -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://sahinercan.com/series.html">
+    <meta property="og:title" content="The Village Stack · A series by Ercan Şahin">
+    <meta property="og:description" content="Village problems, software solutions. A 13-part series that reads a village and its problems like a software system, every Tuesday from 13 October 2026.">
+    <meta property="og:image" content="https://sahinercan.com/assets/og-image.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:alt" content="Ercan Şahin, Technical Business Analyst in Dubai">
+    <meta name="twitter:card" content="summary_large_image">
+
+    <!-- Visit counter: cookie-free, no consent banner needed. Ignores localhost. -->
+    <script data-goatcounter="https://sahinercan.goatcounter.com/count" async src="https://gc.zgo.at/count.js"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,300;0,6..72,400;1,6..72,300;1,6..72,400&family=IBM+Plex+Mono:wght@400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css?v=20261001">
+</head>
+<body>
+    <header class="masthead">
+        <div class="container mast-inner">
+            <a href="./" class="mast-logo" aria-label="Ercan Şahin, home">EŞ</a>
+            <nav class="mast-nav">
+                <a href="./#writing">Writing</a>
+                <a href="series.html" aria-current="page">Series</a>
+                <a href="resume.html">Resume</a>
+                <a href="mailto:sahinercan.cs@gmail.com">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="intro">
+            <p class="kicker">A series in 13 parts</p>
+            <h1 class="display">The Village Stack</h1>
+            <p class="standfirst">
+                <em>Village problems, software solutions.</em> A village and its problems, read like a software system.
+                Every Tuesday from 13 October 2026, one problem from village life and the system design that solves it. Tap a point on the map to see each story.
+            </p>
+        </section>
+
+        <section class="block">
+            <header class="block-head">
+                <span class="label">The map</span>
+                <span class="label">Big picture → core → integration → reliability → data → scale → crisis</span>
+            </header>
+            <figure class="map-frame">
+                <svg id="villageMap" viewBox="0 0 1000 600" role="group" aria-label="Interactive village map with 13 story points"></svg>
+            </figure>
+            <div id="villagePanel" class="village-panel" aria-live="polite"></div>
+        </section>
+
+        <section class="block">
+            <header class="block-head">
+                <span class="label">Contents</span>
+                <a class="label-link" href="https://medium.com/@ercanvari" target="_blank" rel="noopener">Follow on Medium ↗</a>
+            </header>
+            <ol id="villageToc" class="toc"></ol>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-inner">
+                <span>© <span id="year">2026</span> Ercan Şahin</span>
+                <span>Set in Newsreader and IBM Plex Mono</span>
+            </div>
+        </div>
+    </footer>
+
+    <script src="village-data.js?v=20261001"></script>
+    <script src="village.js?v=20261001"></script>
+    <script src="script.js?v=20261001"></script>
+</body>
+</html>
