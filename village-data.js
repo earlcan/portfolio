@@ -2,7 +2,7 @@
 // Links are filled automatically from posts.json when the Medium title matches.
 // If a title on Medium differs, paste the link into `url` by hand.
 window.VILLAGE_POSTS = [
-    { n: 1,  x: 90,  y: 90,  icon: "🗺️", place: "Welcome to Localhost", sub: "Population: 127", layer: "Big picture",  title: "The Village Map: Reading a Village Like a Software System", topic: "Platform big picture",              date: "Oct 13", url: "", live: true },
+    { n: 1,  x: 90,  y: 90,  icon: "🗺️", place: "Localhost Village", sub: "Population: 127", layer: "Big picture",  title: "The Village Map: Reading a Village Like a Software System", topic: "Platform big picture",              date: "Oct 13", url: "", live: true },
     { n: 2,  x: 250, y: 160, icon: "🏛️", place: "Village office",   layer: "Core",         title: "The Village Office: One Record for Every Villager", topic: "Accounts, identity, single source of truth", date: "Oct 20", url: "", live: true },
     { n: 3,  x: 410, y: 90,  icon: "📒", place: "Grocer's notebook", layer: "Core",         title: "The Grocer's Notebook: Keeping Money Safe",         topic: "Wallet, ledger, double-entry",      date: "Oct 27", url: "", live: true },
     { n: 4,  x: 570, y: 160, icon: "🌾", place: "The mill",          layer: "Core",         title: "One Mill, Five Villages",                           topic: "Multi-tenant shared service",       date: "Nov 3",  url: "", live: true },
