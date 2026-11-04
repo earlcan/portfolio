@@ -1,4 +1,4 @@
-// The Village Stack: 13 posts on the village map.
+// Village-Driven Design: 13 posts on the village map.
 // Links are filled automatically from posts.json when the Medium title matches.
 // If a title on Medium differs, paste the link into `url` by hand.
 window.VILLAGE_POSTS = [
