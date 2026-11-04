@@ -140,6 +140,7 @@ ul, ol { list-style: none; }
 .map-frame { border: 1px solid var(--ink); background: var(--paper-2); }
 #villageMap { display: block; width: 100%; height: auto; }
 .village-river { fill: var(--river); }
+.village-future { font: italic 400 16px var(--serif); fill: var(--muted); text-anchor: middle; }
 .village-road-bed { fill: none; stroke: var(--lane); stroke-width: 16; stroke-linecap: round; stroke-linejoin: round; }
 .village-road { fill: none; stroke: var(--ink); stroke-width: 1.4; stroke-linecap: round; stroke-dasharray: 1 8; }
 .village-node { cursor: pointer; outline: none; }

@@ -1,7 +1,8 @@
 // Renders the village map and the contents list from window.VILLAGE_POSTS.
 // Links fill in automatically when a Medium post with the same title appears in posts.json.
 (function () {
-    const posts = window.VILLAGE_POSTS || [];
+    const all = window.VILLAGE_POSTS || [];
+    const posts = all.filter(p => p.live);
     const svg = document.getElementById('villageMap');
     const panel = document.getElementById('villagePanel');
     const toc = document.getElementById('villageToc');
@@ -40,6 +41,11 @@
         d += ` L ${last.x} ${last.y}`;
         el('path', { d, class: 'village-road-bed' }, svg);
         el('path', { d, class: 'village-road' }, svg);
+
+        if (all.length > posts.length) {
+            const note = el('text', { x: 740, y: 250, class: 'village-future' }, svg);
+            note.textContent = 'Unexplored. More spots to come.';
+        }
 
         nodes = posts.map((p, i) => {
             const g = el('g', {
