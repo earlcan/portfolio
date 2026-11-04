@@ -161,6 +161,17 @@ ul, ol { list-style: none; }
     stroke-width: 5px;
 }
 
+.village-node-sub {
+    font: 400 12px var(--mono);
+    letter-spacing: 0.06em;
+    fill: var(--muted);
+    text-anchor: middle;
+    pointer-events: none;
+    paint-order: stroke;
+    stroke: var(--paper-2);
+    stroke-width: 4px;
+}
+
 .village-panel { display: grid; grid-template-columns: 160px 1fr; gap: 24px; padding: 22px 0 8px; }
 .village-panel h3 { font-weight: 300; font-size: 1.9rem; line-height: 1.15; margin-bottom: 0.25rem; }
 .village-panel p { color: var(--muted); margin-bottom: 0.6rem; }
@@ -257,6 +268,7 @@ ul, ol { list-style: none; }
     .case, .case + .case { padding: 0; border-left: none; }
     .case + .case { padding-top: 28px; border-top: 1px solid var(--rule-soft); }
     .village-node-label { font-size: 21px; }
+    .village-node-sub { font-size: 16px; }
     .cvx .cv-row { flex-direction: column; gap: 0; }
     .cvx .cv-row > :last-child { flex: none; }
     .cvx ul { padding-left: 22px; }

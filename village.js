@@ -60,6 +60,10 @@
             num.textContent = two(p.n);
             const label = el('text', { class: 'village-node-label', y: 46 }, g);
             label.textContent = p.place;
+            if (p.sub) {
+                const sub = el('text', { class: 'village-node-sub', y: 66 }, g);
+                sub.textContent = p.sub;
+            }
 
             g.addEventListener('click', () => show(i));
             g.addEventListener('keydown', e => {
