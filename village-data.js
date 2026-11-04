@@ -2,10 +2,10 @@
 // Links are filled automatically from posts.json when the Medium title matches.
 // If a title on Medium differs, paste the link into `url` by hand.
 window.VILLAGE_POSTS = [
-    { n: 1,  x: 90,  y: 90,  icon: "🗺️", place: "Localhost Village", sub: "Population: 127", layer: "Big picture",  title: "The Village Map: Reading a Village Like a Software System", topic: "Platform big picture",              date: "Oct 13", url: "", live: true },
-    { n: 2,  x: 250, y: 160, icon: "🏛️", place: "Village office",   layer: "Core",         title: "The Village Office: One Record for Every Villager", topic: "Accounts, identity, single source of truth", date: "Oct 20", url: "", live: true },
-    { n: 3,  x: 410, y: 90,  icon: "📒", place: "Grocer's notebook", layer: "Core",         title: "The Grocer's Notebook: Keeping Money Safe",         topic: "Wallet, ledger, double-entry",      date: "Oct 27", url: "", live: true },
-    { n: 4,  x: 570, y: 160, icon: "🌾", place: "The mill",          layer: "Core",         title: "One Mill, Five Villages",                           topic: "Multi-tenant shared service",       date: "Nov 3",  url: "", live: true },
+    { n: 1,  x: 90,  y: 90,  icon: "🗺️", place: "Localhost Village", sub: "Population: 127", layer: "Big picture",  title: "The Village Map: Reading a Village Like a Software System", topic: "Platform big picture",              date: "Nov 11", url: "", live: true },
+    { n: 2,  x: 250, y: 160, icon: "🏛️", place: "Village office",   layer: "Core",         title: "The Village Office: One Record for Every Villager", topic: "Accounts, identity, single source of truth", date: "later", url: "", live: true },
+    { n: 3,  x: 410, y: 90,  icon: "📒", place: "Grocer's notebook", layer: "Core",         title: "The Grocer's Notebook: Keeping Money Safe",         topic: "Wallet, ledger, double-entry",      date: "later", url: "", live: true },
+    { n: 4,  x: 570, y: 160, icon: "🌾", place: "The mill",          layer: "Core",         title: "One Mill, Five Villages",                           topic: "Multi-tenant shared service",       date: "later",  url: "", live: true },
     { n: 5,  x: 730, y: 90,  icon: "🧳", place: "City trader",       layer: "Integration",  title: "The Trader from the City",                          topic: "Aggregator and provider contract",  date: "Nov 10", url: "", live: false },
     { n: 6,  x: 900, y: 160, icon: "📜", place: "Old master",        layer: "Integration",  title: "The Old Master's Secret Recipe",                    topic: "Undocumented provider API",         date: "Nov 17", url: "", live: false },
     { n: 7,  x: 870, y: 290, icon: "🎒", place: "The sack",          layer: "Reliability",  title: "The Same Sack Came Twice",                          topic: "Retry and idempotency",             date: "Nov 24", url: "", live: false },
