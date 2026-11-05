@@ -1,5 +1,19 @@
 [
   {
+    "title": "Village-Driven Design #1",
+    "url": "https://ercanvari.medium.com/village-driven-design-e8ce5429582e",
+    "date": "2026-11-04",
+    "tags": [
+      "business-analysis",
+      "domain-driven-design",
+      "software-development",
+      "system-design-concepts",
+      "software-architecture"
+    ],
+    "image": "https://cdn-images-1.medium.com/max/1024/1*SA3Kyv9kWYbIJsCgaAoKGg.jpeg",
+    "excerpt": "Village problems, software solutions. Software people love the word “driven”. You see it in job titles and in books: Test-Driven Development, Domain-Driven Design, Event-Driven…"
+  },
+  {
     "title": "Yönetişim",
     "url": "https://ercanvari.medium.com/y%C3%B6neti%C5%9Fim-166e55c5239e",
     "date": "2024-09-25",
